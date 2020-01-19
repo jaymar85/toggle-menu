@@ -1,0 +1,37 @@
+.nav-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: calc(100vh - 60px);
+    width: 50px;
+    padding: 0 5px;
+    background-color: #1b1b1b;
+    z-index: 1000;
+}
+
+.nav-sidebar ul {
+    padding-top: 15px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.nav-sidebar ul li {
+    list-style: none;
+    line-height: 60px;
+}
+
+.nav-sidebar ul li span, .nav-sidebar ul li a  {
+    display: block;
+    height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.nav-sidebar ul li a:hover  {
+    background-color: #222;
+}
